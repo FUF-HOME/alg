@@ -1,4 +1,5 @@
 class SingleNode():
+    """链表节点"""
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -104,7 +105,7 @@ class SingleLinkedList(object):
         """转储链表内容的调试函数。"""
         mark = mark
         node = self.__head
-        new_head = None
+        # new_head = None
         if mark == 'before perinone':
             if node == None or node.next == None:
                 return node
